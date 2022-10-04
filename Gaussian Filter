@@ -1,0 +1,16 @@
+# Gaussian Filter
+
+# ImageFilter for using filter() function
+from PIL import Image, ImageFilter
+
+# Opening the image
+# (R prefixed to string in order to deal with '\' in paths)
+image = imn
+
+# Blurring image by sending the ImageFilter.
+# GaussianBlur predefined kernel argument
+b = cv2.GaussianBlur(imn,(5,5),0)
+print("Image without Filter:\n")
+cv2_imshow(imn)
+print("Image with Filter:\n")
+cv2_imshow(b)
