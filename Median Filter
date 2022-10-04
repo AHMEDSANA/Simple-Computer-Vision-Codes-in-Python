@@ -1,0 +1,7 @@
+# Median_Filter
+
+median = cv2.medianBlur(imn,5)
+print("Image without Filter:\n")
+cv2_imshow(imn)
+print("Image with Filter:\n")
+cv2_imshow(median)
